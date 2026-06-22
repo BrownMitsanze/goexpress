@@ -1,0 +1,81 @@
+/* Reset some default browser styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8dde3;
+    line-height: 1.6;
+}
+
+/* Navigation Links */
+a{
+    text-decoration: none;
+    color: black;
+    background-color: #d8dde3;
+    padding: 10px 15px;
+    margin-right: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* Hover Effect */
+a:hover{
+    background-color: #3d4650;
+    color: white;
+}
+
+/* Banner Section */
+.banner{
+    background-color: #4b5563;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Main Layout */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Main Content */
+.content{
+    flex: 70%;
+    padding: 20px;
+    background-color: #f5f6f7;
+}
+
+/* Right Sidebar */
+.right_side_bar{
+    flex: 30%;
+    padding: 20px;
+    background-color: #cfd5db;
+}
+
+/* Footer */
+.footer{
+    background-color: #3d4650;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1, h2, h3{
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p{
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul{
+    margin-left: 20px;
+}
