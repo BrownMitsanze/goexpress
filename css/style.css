@@ -79,3 +79,46 @@ p{
 ul{
     margin-left: 20px;
 }
+/* Form Styling */
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aab2bb;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #3d4650;
+}
+
+/* Table Styling */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td{
+    border: 1px solid #aab2bb;
+}
+
+th{
+    background-color: #4b5563;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    background-color: #f5f6f7;
+}
