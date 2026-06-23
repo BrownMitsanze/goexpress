@@ -122,3 +122,23 @@ td{
     padding: 10px;
     background-color: #f5f6f7;
 }
+/* Responsive Design */
+@media screen and (max-width: 768px){
+
+    .row{
+        flex-direction: column;
+    }
+
+    .content{
+        flex: 100%;
+    }
+
+    .right_side_bar{
+        flex: 100%;
+    }
+
+    a{
+        display: block;
+        margin-bottom: 5px;
+    }
+}
