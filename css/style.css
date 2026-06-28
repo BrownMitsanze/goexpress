@@ -142,3 +142,36 @@ td{
         margin-bottom: 5px;
     }
 }
+/* Dark Mode */
+
+.dark-mode{
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .content{
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.dark-mode .right_side_bar{
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.dark-mode .banner{
+    background-color: #1f2937;
+}
+
+.dark-mode .footer{
+    background-color: #111;
+}
+
+.dark-mode a{
+    background-color: #555;
+    color: white;
+}
+
+.dark-mode a:hover{
+    background-color: #888;
+}
