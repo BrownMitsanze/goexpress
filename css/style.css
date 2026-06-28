@@ -175,3 +175,13 @@ td{
 .dark-mode a:hover{
     background-color: #888;
 }
+/* Gallery Styling */
+
+img{
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
