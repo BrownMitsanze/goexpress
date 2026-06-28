@@ -52,6 +52,8 @@ a:hover{
     flex: 70%;
     padding: 20px;
     background-color: #f5f6f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Right Sidebar */
@@ -59,6 +61,8 @@ a:hover{
     flex: 30%;
     padding: 20px;
     background-color: #cfd5db;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Footer */
