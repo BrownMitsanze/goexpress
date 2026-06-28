@@ -99,17 +99,6 @@ textarea{
     border-radius: 5px;
 }
 
-input[type="submit"]{
-    background-color: #4b5563;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover{
-    background-color: #3d4650;
-}
-
 /* Table Styling */
 table{
     width: 100%;
