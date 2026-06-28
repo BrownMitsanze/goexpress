@@ -215,3 +215,17 @@ img:hover{
     padding: 15px 20px;
     margin-bottom: 20px;
 }
+/* FAQ Accordion */
+
+.accordion-button{
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #4b5563;
+    color: white;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
