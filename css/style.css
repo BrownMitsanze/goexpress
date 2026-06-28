@@ -27,7 +27,12 @@ a:hover{
     background-color: #3d4650;
     color: white;
 }
-
+/* Active Navigation Link */
+.active{
+    background-color: #3d4650;
+    color: white;
+    font-weight: bold;
+}
 /* Banner Section */
 .banner{
     background-color: #4b5563;
